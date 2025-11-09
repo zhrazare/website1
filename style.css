@@ -1,14 +1,14 @@
 .box{
     width:50% ;
     margin:1px auto ;
-    background-color:rgb(255, 246, 120) ;
+    background-color:rgb(241, 237, 170) ;
     display:grid ;
     grid-template-columns: 1fr 1fr 1fr;
     aspect-ratio: 1/1;
     gap:1%;
 }
 .box > * {
-   background-color: rgb(91, 10, 99);
+   background-color: rgb(88, 25, 117);
    border-radius: 15px;
    text-align: center;
    color:aliceblue;
@@ -30,4 +30,7 @@ cursor: pointer;
     grid-column: 3/4;
     grid-row: 1/3
     /*grid-row: -1/1; */
+}
+.background{
+    background-color: rgb(252, 247, 183);
 }
